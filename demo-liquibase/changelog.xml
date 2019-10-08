@@ -5,5 +5,9 @@
   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
          http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
 
-  <includeAll path="migrations" relativeToChangelogFile="true" />
+  <includeAll path="migrations" relativeToChangelogFile="false" />
+  <include file="migrations/201910021447_Create_Customer_Table.sql" relativeToChangelogFile="true"/>
+  <include file="migrations/201910021449_Insert_Customer_Table.sql" relativeToChangelogFile="true"/>
+  <include file="migrations/201910021551_Change_Customer_Table_Add_Email.sql" relativeToChangelogFile="true"/>
+
 </databaseChangeLog>
