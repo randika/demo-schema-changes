@@ -5,5 +5,5 @@
   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
          http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
 
-  <includeAll path="file:/var/lib/jenkins/workspace/Liquibase/demo-liquibase/migrations" relativeToChangelogFile="false"/>
+  <includeAll path="file:$WORKSPACE/demo-liquibase/migrations" relativeToChangelogFile="false"/>
 </databaseChangeLog>
